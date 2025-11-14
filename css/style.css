@@ -1,0 +1,115 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #555;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.selected {
+    color: #0078ff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 60px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #e2e2e2;
+}
+nav a {
+    font-weight: 700;
+    font-size: 24px;
+    color:  #8D81FF;
+;
+}
+.selected {
+    color: #4E6FAE;
+}
+.date {
+    width: 50px;
+    height: 50px;
+    top: 312px;
+    left: 104px;
+}
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Image and text side by side */
+section .sec-img {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    vertical-align: top;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+section .text-content {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+/* Optional styling for the inner text */
+section .date {
+    background-color: #0078ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+section .month {
+    font-weight: 600;
+    color: #555;
+    margin: 5px 0;
+}
+section .header {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #222;
+    margin: 10px 0;
+}
+section .description {
+    color: #666;
+    line-height: 1.6;
+}
